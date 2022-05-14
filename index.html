@@ -6,15 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Quiz-Score</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
     <header>
         <a href="#high-score">View High Scores</a>
-        <span id="counter"></span>
+        <p id="countdown"></p>
     </header>
 
-    <section class="form-wrapper">
+    <section class="txt-wrapper">
         <h1>
             CODE QUIZ
         </h1>
@@ -25,6 +26,64 @@
 
     </section>
 
+    <section class="form-wrapper" id="question-1">
+        <h2>choose one</h2>
+
+        <div class="btn-dis">
+            <button class="btn-clk" id="correct"><a href="#question-2">a</a></button>
+            <button class="btn-clk" id="incorect"><a href="#question-2">b</a></button>
+            <button class="btn-clk" id="incorect"><a href="#question-2">c</a></button>
+            <button class="btn-clk" id="incorect"><a href="#question-2">d</a></button>
+        </div>
+    </section>
+
+    <section class="form-wrapper" id="question-2">
+        <h2>choose one</h2>
+
+        <div class="btn-dis">
+            <button class="btn-clk" id="incorect"><a href="#question-3">a</a></button>
+            <button class="btn-clk" id="incorect"><a href="#question-3">b</a></button>
+            <button class="btn-clk" id="correct"><a href="#question-3">c</a></button>
+            <button class="btn-clk" id="incorect"><a href="#question-3">d</a></button>
+        </div>
+    </section>
+
+    <section class="form-wrapper" id="question-3">
+        <h2>choose one</h2>
+
+        <div class="btn-dis">
+            <button class="btn-clk" id="correct"><a href="#question-4">a</a></button>
+            <button class="btn-clk" id="incorect"><a href="#question-4">b</a></button>
+            <button class="btn-clk" id="incorect"><a href="#question-4">c</a></button>
+            <button class="btn-clk" id="incorect"><a href="#question-4">d</a></button>
+        </div>
+    </section>
+
+    <section class="form-wrapper" id="question-4">
+        <h2>choose one</h2>
+
+        <div class="btn-dis">
+            <button class="btn-clk" id="incorect"><a href="#game-over">a</a></button>
+            <button class="btn-clk" id="incorect"><a href="#game-over">b</a></button>
+            <button class="btn-clk" id="incorect"><a href="#game-over">c</a></button>
+            <button class="btn-clk" id="correct"><a href="#game-over">d</a></button>
+        </div>
+
+    </section>
+
+    <section class="form-wrapper" id="quiz-over">
+        <h2>Game over</h2>
+        <span>Your score is <p id="score"></p></span>
+        <div>
+            <input type="text" name="task-name" placeholder="Enter initial" />
+        </div>
+    </section>
+
+    <section class="form-wrapper" id="high-score">
+    </section>
+
+    <script src="./assets/js/script.js"></script>
 </body>
+
 
 </html>

@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+}
+
+header {
+  display: inline-block;
+}
+
+header p {
+  float: left;
+}
+
+header span {
+  float: left;
+}
+
+section {
+  background-color: rgb(243, 243, 243);
+  margin: 200px 0 200px 0;
+  padding: 100px 0 100px 0;
+}
+
+section h1 {}
+
+section p {}
+
+.btn-clk {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background-color: rgb(121, 16, 207);
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+}
+
+.btn-dis {
+  display: grid;
+  width: 20px;
+  height: auto;
+}
